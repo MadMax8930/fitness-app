@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Box, Button, Stack, TextField, Typography } from '@mui/material';
 
-import { BodyPartCategories } from '../components';
+import { BodyPartCategories } from '.';
 import { fetchData, exerciseOptions } from '../utils/fetchData';
 
-const SearchExo = ({ category, setCategory, setExercises }) => {
+const SearchExercises = ({ category, setCategory, setExercises }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [bodyCategories, setBodyCategories] = useState([]);
 
@@ -55,4 +55,4 @@ const SearchExo = ({ category, setCategory, setExercises }) => {
   );
 };
 
-export default SearchExo;
+export default SearchExercises;

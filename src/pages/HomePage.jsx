@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Box } from "@mui/material";
-import { Banner, SearchExo, ExoList } from "../components"
+import { Banner, SearchExercises, ExoList } from "../components"
 
 const HomePage = () => {
    const [category, setCategory] = useState('all');
@@ -9,7 +9,7 @@ const HomePage = () => {
   return (
     <Box> 
       <Banner />
-      <SearchExo category={category} setCategory={setCategory} setExercises={setExercises} />
+      <SearchExercises category={category} setCategory={setCategory} setExercises={setExercises} />
       <ExoList category={category} setCategory={setCategory} setExercises={setExercises} />
     </Box>
   )
