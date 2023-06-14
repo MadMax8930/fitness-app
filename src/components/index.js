@@ -1,2 +1,12 @@
 export { default as Navbar } from './Navbar';
+export { default as Banner } from './Banner';
+export { default as BodyPart } from './BodyPart';
+export { default as BodyPartCategories } from './BodyPartCategories';
+export { default as ExoCard } from './ExoCard';
+export { default as ExoList } from './ExoList';
+export { default as ExoDetail } from './ExoDetail';
+export { default as ExoVideos } from './ExoVideos';
+export { default as SearchExo } from './SearchExo';
+export { default as SimilarExo } from './SimilarExo';
+export { default as Loader } from './Loader';
 export { default as Footer } from './Footer';
