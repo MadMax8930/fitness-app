@@ -49,7 +49,7 @@ const SearchExercises = ({ category, setCategory, setExercises }) => {
                 onClick={submitSearch}>Search</Button>
       </Box>
       <Box sx={{ position: 'relative', width: '100%', p: '20px' }}>
-        <BodyPartCategories data={bodyCategories} category={category} setCategory={setCategory} bodyCategories={bodyCategories} />
+        <BodyPartCategories data={bodyCategories} category={category} setCategory={setCategory} customBodyPartProp />
       </Box>
     </Stack>
   );

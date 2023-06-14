@@ -6,11 +6,11 @@ import { BodyPart, ExoCard } from '../components';
 import LeftArrowIcon from '../assets/icons/left-arrow.png';
 import RightArrowIcon from '../assets/icons/right-arrow.png';
 
-const BodyPartCategories = ({ data, category, setCategory, bodyCategories }) => (
+const BodyPartCategories = ({ data, category, setCategory, customBodyPartProp }) => (
   <ScrollMenu LeftArrow={LeftArrow} RightArrow={RightArrow}> {/* horizontal scrollbar */}
     {data.map((item) => (
       <Box key={item.id || item} itemId={item.id || item} title={item.id || item} m="0 40px">
-        {bodyCategories ? <BodyPart item={item} category={category} setCategory={setCategory} /> : <ExoCard exercise={item} /> }
+        {customBodyPartProp ? <BodyPart item={item} category={category} setCategory={setCategory} /> : <ExoCard exercise={item} /> }
       </Box>
     ))}
   </ScrollMenu>
