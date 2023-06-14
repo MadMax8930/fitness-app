@@ -5,7 +5,6 @@ import { Banner, SearchExercises, ExoList } from "../components"
 const HomePage = () => {
    const [category, setCategory] = useState('all');
    const [exercises, setExercises] = useState([]);
-   // console.log(category)
 
   return (
     <Box> 

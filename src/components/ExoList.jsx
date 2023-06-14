@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Box, Stack, Typography } from '@mui/material';
 import Pagination from '@mui/material/Pagination';
 
