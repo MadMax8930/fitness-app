@@ -15,4 +15,4 @@ npm install @mui/icons-material @mui/material @emotion/react @emotion/styled rea
 ```
 
 ### Deployment:
-[Project deployed](https://my-fitness.netlify.app) on Netlify.
+[Project deployed](https://exofitness.netlify.app) on Netlify.
