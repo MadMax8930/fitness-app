@@ -12,7 +12,7 @@ const ExoCard = ({ exercise }) => (
         {exercise.target}
       </Button>
     </Stack>
-    <Typography ml="21px" color="#000" fontWeight="bold" sx={{ fontSize: { lg: '24px', xs: '20px' } }} mt="11px" pb="10px" textTransform="capitalize">
+    <Typography ml="21px" color="#000" fontWeight="bold" sx={{ fontSize: { lg: '22px', xs: '20px' } }} mt="11px" pb="10px" textTransform="capitalize">
       {exercise.name}
     </Typography>
   </Link>

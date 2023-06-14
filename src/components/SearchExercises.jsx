@@ -25,7 +25,7 @@ const SearchExercises = ({ category, setCategory, setExercises }) => {
                || item.equipment.toLowerCase().includes(searchTerm)
                || item.bodyPart.toLowerCase().includes(searchTerm),
       );
-      // window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
+      window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
       setSearchTerm('');
       setExercises(searchedExercises);
     }
