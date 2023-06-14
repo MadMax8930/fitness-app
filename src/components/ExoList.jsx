@@ -7,7 +7,7 @@ import { fetchData, exerciseOptions } from '../utils/fetchData';
 
 const ExoList = ({ exercises, setExercises, category }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const exercisesPerPage = 9;
+  const exercisesPerPage = 6;
 
   useEffect(() => {
     const fetchExoData = async () => {
