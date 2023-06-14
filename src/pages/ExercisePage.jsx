@@ -4,4 +4,4 @@ const ExercisePage = () => {
   )
 }
 
-export default ExercisePage
+export default ExercisePage;
